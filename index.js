@@ -7,7 +7,7 @@ const port = process.env.PORT || 5000;
 
 // middleware
 
-app.use(cors({origin:['https://bold-stylish-blog.web.app/','https://bold-stylish-blog.firebaseapp.com/']}));
+app.use(cors());
 app.use(express.json());
 
 
